@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/My_Orders"
+            android:icon="@drawable/ic_facultys"
+            android:title="faculty"/>
+        <item
+            android:id="@+id/previous"
+            android:icon="@drawable/ic_previous"
+            android:title="Previous Papers" />
+        <item android:id="@+id/My_Profile"
+            android:icon="@drawable/ic_faculty"
+            android:title="attendance"/>
+        <item android:id="@+id/edit_profile"
+            android:title="internals"/>
+        <item android:id="@+id/Change_pass"
+            android:icon="@drawable/ic_predict"
+            android:title="predictor"/>
+        <item android:id="@+id/Logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout"/>
+    </group>
+</menu>

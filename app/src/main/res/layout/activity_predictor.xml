@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".predictor">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="1st assaignment"
+    android:textColorHint="@color/blue_them_color"
+    android:textSize="23dp"
+    android:layout_gravity="center"
+    android:id="@+id/ass1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="2nd assaignment"
+        android:textColorHint="@color/blue_them_color"
+        android:textSize="23dp"
+        android:layout_gravity="center"
+        android:id="@+id/ass2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="1st Mid"
+        android:textColorHint="@color/blue_them_color"
+        android:layout_gravity="center"
+        android:textSize="23dp"
+        android:id="@+id/mid1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="Total"
+        android:textColorHint="@color/blue_them_color"
+        android:textSize="23dp"
+        android:id="@+id/ttl"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/done"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="submit"
+        android:textSize="29dp"
+        android:textColorHint="@color/white"
+        android:background="@color/blue_them_color"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColorHint="@color/blue_them_color"
+        android:textSize="23dp"
+        android:hint="2nd mid"
+        android:id="@+id/mid2" />
+
+</LinearLayout>

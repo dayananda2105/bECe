@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".subatt1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/op1"
+        android:hint="op"
+        android:textSize="27dp"
+        android:textColor="@color/blue_them_color"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/op2"
+        android:textSize="27dp"
+        android:textColor="@color/blue_them_color"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/op3"
+        android:textSize="27dp"
+        android:textColor="@color/blue_them_color"/>
+    <Button
+        android:layout_width="200dp"
+        android:visibility="visible"
+        android:layout_height="50dp"
+        android:id="@+id/year1"
+        android:background="@color/white"
+        android:hint="1st year"
+        android:textSize="27dp"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_width="200dp"
+        android:visibility="visible"
+        android:layout_height="50dp"
+        android:id="@+id/year2"
+        android:background="@color/white"
+        android:hint="2nd year"
+        android:textSize="27dp"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_width="200dp"
+        android:visibility="visible"
+        android:layout_height="50dp"
+        android:id="@+id/year3"
+        android:background="@color/white"
+        android:hint="3rd year"
+        android:textSize="27dp"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_width="200dp"
+        android:visibility="visible"
+        android:layout_height="50dp"
+        android:id="@+id/year4"
+        android:background="@color/white"
+        android:hint="4th year"
+        android:textSize="27dp"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/sec1"
+        android:background="@color/white"
+        android:hint="Sec A"
+        android:textSize="27dp"
+        android:textColorHint="@color/blue_them_color"
+        android:visibility="gone"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/sec2"
+        android:background="@color/white"
+        android:hint="Sec B"
+        android:textSize="27dp"
+        android:visibility="gone"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/sec3"
+        android:background="@color/white"
+        android:hint="Sec C"
+        android:textSize="27dp"
+        android:visibility="gone"
+        android:textColorHint="@color/blue_them_color"/>
+
+</LinearLayout>

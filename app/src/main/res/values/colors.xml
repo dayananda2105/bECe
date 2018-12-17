@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#67c2e9</color>
+    <color name="colorPrimaryDark">#0d415b</color>
+    <color name="colorAccent">#e1dfdf</color>
+    <color name="white">#fff</color>
+    <color name="black">#000000</color>
+    <color name="blue_them_color">#006e6d</color>
+    <color name="da">#485167</color>
+    <color name="ya">#2e4a62</color>
+    <color name="nandu">#b4b7ba</color>
+    <color name="uma">#223a5e</color>
+    <color name="pavs">#005960</color>
+    <color name="vijji">#7fcdcd</color>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Myprofil">
+    <RelativeLayout
+        android:layout_margin="2dp"
+        android:id="@+id/ra1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="30dp"
+            android:textSize="13dp"
+            android:text="Id"
+            android:id="@+id/namd"
+            android:textColor="@color/blue_them_color"/>
+        <TextView
+            android:layout_toRightOf="@id/namd"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:textSize="13dp"
+            android:id="@+id/mard"
+            android:textColor="@color/blue_them_color"
+            android:text="Name"/>
+        <TextView
+            android:layout_toRightOf="@id/mard"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="13dp"
+            android:id="@+id/idsd"
+            android:text="Marks"
+            android:textColor="@color/blue_them_color"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ra1"
+        android:id="@+id/recyclerview">
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

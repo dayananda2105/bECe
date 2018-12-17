@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">bECe</string>
+    <string name="nav_draw_Open">Open</string>
+    <string name="nav_draw_Close">Close</string>
+</resources>

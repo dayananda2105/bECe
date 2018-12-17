@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sirsub">
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="200dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/op1"
+        android:hint="op"
+        android:textSize="27dp"
+        android:textColor="@color/blue_them_color"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/op2"
+        android:textSize="27dp"
+        android:textColor="@color/blue_them_color"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/op3"
+            android:textSize="27dp"
+            android:textColor="@color/blue_them_color"/>
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/year1"
+        android:background="@color/white"
+        android:hint="1st year"
+        android:textSize="27dp"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_margin="5dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/year2"
+        android:background="@color/white"
+        android:hint="2nd year"
+        android:textSize="27dp"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_margin="5dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/year3"
+        android:background="@color/white"
+        android:hint="3rd year"
+        android:textSize="27dp"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_margin="5dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/year4"
+        android:background="@color/white"
+        android:hint="4th year"
+        android:textSize="27dp"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/sec1"
+        android:background="@color/white"
+        android:hint="Sec A"
+        android:textSize="27dp"
+        android:textColorHint="@color/blue_them_color"
+        android:visibility="gone"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/sec2"
+        android:background="@color/white"
+        android:hint="Sec B"
+        android:textSize="27dp"
+        android:visibility="gone"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/sec3"
+        android:background="@color/white"
+        android:hint="Sec C"
+        android:textSize="27dp"
+        android:visibility="gone"
+        android:textColorHint="@color/blue_them_color"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_toRightOf="@+id/lin1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/sub1"
+        android:background="@color/white"
+        android:hint="Sub 1"
+        android:visibility="gone"
+        android:textSize="27dp"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/sub2"
+        android:background="@color/white"
+        android:hint="Sub 2"
+        android:textSize="27dp"
+        android:visibility="gone"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/sub3"
+        android:background="@color/white"
+        android:hint="Sub 3"
+        android:textSize="27dp"
+        android:visibility="gone"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/sub4"
+        android:background="@color/white"
+        android:hint="Sub 4"
+        android:textSize="27dp"
+        android:visibility="gone"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/sub5"
+        android:background="@color/white"
+        android:hint="Sub 5"
+        android:textSize="27dp"
+        android:visibility="gone"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/sub6"
+        android:background="@color/white"
+        android:hint="Sub 6"
+        android:textSize="27dp"
+        android:visibility="gone"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/lab1"
+        android:background="@color/white"
+        android:hint="Lab 1"
+        android:textSize="27dp"
+        android:visibility="gone"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/lab2"
+        android:background="@color/white"
+        android:hint="Lab 2"
+        android:textSize="27dp"
+        android:visibility="gone"
+        android:textColorHint="@color/blue_them_color"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/lab3"
+        android:background="@color/white"
+        android:hint="Lab 3"
+        android:textSize="27dp"
+        android:visibility="gone"
+        android:textColorHint="@color/blue_them_color"/>
+
+</LinearLayout>
+</RelativeLayout>

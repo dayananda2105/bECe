@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="60dp"
+    android:background="@color/white"
+    tools:context=".Home">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="DEPARTMENT OF ELECTRONICS AND COMMUNICATION"
+        android:textColor="@color/blue_them_color"
+        android:textStyle="italic"
+        android:textSize="19dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/bec" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Department Profile"
+        android:textSize="19dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:background="@color/white"
+        android:text="The Department of Electronics and Communication Engineering was established in the year 1981 .The National Board of Accreditation has accredited the department for three years. Department is headed by Dr. B. Chandra Mohan"
+        android:textSize="19dp"
+        android:textStyle="italic"
+        android:textColor="@color/blue_them_color"/>
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:background="@color/white"
+        android:text="Department have 38 faculty and are members of professional bodies like ISTE,IEEE,IETE and CSI. All the students are the members of IETE student forum of the existing department."
+        android:textColor="@color/blue_them_color"
+        android:layout_marginTop="2dp"
+        android:textSize="19dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19dp"
+        android:background="@color/white"
+        android:text="Programmes offered by the Department" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:stretchColumns="3"
+        android:visibility="visible">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="left"
+                android:textSize="17dp"
+                android:text="Programme"
+                android:background="@color/white"
+                android:textColor="@color/blue_them_color"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="17dp"
+                android:background="@color/white"
+                android:text="Specifications"
+                android:textColor="@color/blue_them_color"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_gravity="right"
+                android:text="Sanctioned Intake"
+                android:textSize="17dp"
+                android:textColor="@color/blue_them_color"
+                android:background="@color/white"
+                android:textStyle="italic" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="left"
+                android:text="B.tech"
+                android:textSize="18dp"
+                android:background="@color/white"
+                android:textColor="@color/blue_them_color"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:text="ECE"
+                android:textSize="18dp"
+                android:background="@color/white"
+                android:textColor="@color/blue_them_color"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_gravity="right"
+                android:text="180"
+                android:textSize="19dp"
+                android:background="@color/white"
+                android:textColor="@color/blue_them_color"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="left"
+                android:text="M.Tech"
+                android:textSize="19dp"
+                android:background="@color/white"
+                android:textColor="@color/blue_them_color"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:text="CSP"
+                android:textSize="19dp"
+                android:background="@color/white"
+                android:textColor="@color/blue_them_color"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_gravity="right"
+                android:text="18"
+                android:textSize="19dp"
+                android:background="@color/white"
+                android:textColor="@color/blue_them_color"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_gravity="left"
+                android:text="Diploma"
+                android:textSize="19dp"
+                android:background="@color/white"
+                android:textColor="@color/blue_them_color"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:text="DECE"
+                android:textSize="19dp"
+                android:background="@color/white"
+                android:textColor="@color/blue_them_color"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_gravity="right"
+                android:text="60"
+                android:textSize="19dp"
+                android:background="@color/white"
+                android:textColor="@color/blue_them_color"
+                android:textStyle="italic" />
+        </TableRow>
+    </TableLayout>
+    </LinearLayout>
+</ScrollView>

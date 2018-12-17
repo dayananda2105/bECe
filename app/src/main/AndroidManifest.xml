@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mylearning.bece">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" />
+        <activity android:name=".attendance" />
+        <activity android:name=".Myprofil" />
+        <activity android:name=".faculty" />
+        <activity android:name=".profile" />
+        <activity android:name=".attendance1" />
+        <activity android:name=".sirsub" />
+        <activity android:name=".siratt" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".subatt" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".internals" />
+        <activity android:name=".predictor" />
+        <activity android:name=".loginp" />
+        <activity android:name=".myprofile" />
+        <activity android:name=".notificationu" />
+        <activity android:name=".internalu" />
+        <activity android:name=".previousp" />
+        <activity android:name=".studentdet" />
+        <activity android:name=".previouspup" />
+        <activity android:name=".notifications" />
+        <activity android:name=".subatt1" />
+        <activity android:name=".subatt2"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/Profile"
+            android:title="Notifications"/>
+        <item android:id="@+id/My_Orders"
+            android:icon="@drawable/ic_previous"
+            android:title="Previous papers"/>
+        <item android:id="@+id/My_Profile"
+            android:icon="@drawable/ic_faculty"
+            android:title="attendance"/>
+        <item android:id="@+id/edit_profile"
+            android:title="internals"/>
+        <item android:id="@+id/Change_pass"
+            android:icon="@drawable/user"
+            android:title="Student Details"/>
+        <item android:id="@+id/Logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout"/>
+    </group>
+</menu>

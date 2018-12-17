@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "119015482400",
+    "firebase_url": "https://bece-d8947.firebaseio.com",
+    "project_id": "bece-d8947",
+    "storage_bucket": "bece-d8947.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119015482400:android:619d919bf408e87e",
+        "android_client_info": {
+          "package_name": "mylearning.bece"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119015482400-hc8d9ph9olaemh1onkouacvc8dovudqd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mylearning.bece",
+            "certificate_hash": "0ff69a31ab68f456c1468eb1bda4790ddb8af725"
+          }
+        },
+        {
+          "client_id": "119015482400-r59hnou8aalq0fuktko0ijrout670ols.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAioDqoUou0A_SJNsBSbELoBoLpCdNdiho"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119015482400-r59hnou8aalq0fuktko0ijrout670ols.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
